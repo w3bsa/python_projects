@@ -1,6 +1,6 @@
-from raspbian/stretch:latest
+from alpine:latest
 
-RUN sudo apt update && sudo apt-get install python3.7 && python3.7 -m pip install pip
+RUN apk add --no-cache python3-dev && pip3 install --upgrade pip
 
 WORKDIR /app
 
