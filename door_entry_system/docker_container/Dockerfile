@@ -1,6 +1,6 @@
-from alpine:latest
+from raspbian/stretch:latest
 
-RUN apk add --no-cache python3-dev && pip3 install --upgrade pip
+RUN sudo apt-get install python3 && sudo apt update && sudo apt install python3-pip
 
 WORKDIR /app
 
