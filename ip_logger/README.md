@@ -25,3 +25,9 @@ The script will need to be configured to run on a schedule, in order to log the 
 16. In the Start in field, enter the path to the directory you are storing this app on your machine, for me this was: C:\Users\Ben\Desktop\python_projects\public_ip_logger
 17. Click OK
 18. Click OK again, and that should be the task scheduled
+
+## Configure to run on a Linux host
+
+The script can be configured to run on a schedule on a linux host by creating a new cron job
+
+1. 
