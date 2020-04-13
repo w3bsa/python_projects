@@ -1,6 +1,6 @@
 from raspbian/stretch:latest
 
-RUN sudo apt update && sudo apt install python3-dev && pip3 install --upgrade pip
+RUN sudo apt update && sudo apt-get install python3.7 && python3.7 -m pip install pip
 
 WORKDIR /app
 
